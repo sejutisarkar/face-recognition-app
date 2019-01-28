@@ -1,3 +1,6 @@
+PLEASE FIND THE APP IN THE FACE NAMED FOLDER.
+
+
 This is CMake, the cross-platform, open-source make system.
 CMake is distributed under the BSD License, see Copyright.txt.
 For documentation see the Docs/ directory once you have built CMake
