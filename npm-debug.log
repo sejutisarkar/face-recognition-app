@@ -1,0 +1,455 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'face-recognition' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData face-recognition
+8 silly fetchNamedPackageData face-recognition
+9 silly mapToRegistry name face-recognition
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/face-recognition
+13 verbose request uri https://registry.npmjs.org/face-recognition
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:31:07 AM
+16 verbose request id b78712d957e8da39
+17 verbose etag W/"9c0623be42a66ba9922f947c7fbb02da"
+18 verbose lastModified Thu, 03 Jan 2019 20:52:49 GMT
+19 http request GET https://registry.npmjs.org/face-recognition
+20 http 304 https://registry.npmjs.org/face-recognition
+21 verbose headers { date: 'Wed, 23 Jan 2019 19:01:09 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=d912682e298b9af30b63336c87ba8c9111548270069; expires=Thu, 23-Jan-20 19:01:09 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-ray': '49dc81dd4e6e2fed-MAA',
+21 verbose headers   etag: '"9c0623be42a66ba9922f947c7fbb02da"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Thu, 03 Jan 2019 20:52:49 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'x-amz-meta-rev': '46-18a88b46f108cea52ad829355e2c032b',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Wed, 23 Jan 2019 19:01:09 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=d912682e298b9af30b63336c87ba8c9111548270069; expires=Thu, 23-Jan-20 19:01:09 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-ray': '49dc81dd4e6e2fed-MAA',
+22 silly get     etag: '"9c0623be42a66ba9922f947c7fbb02da"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Thu, 03 Jan 2019 20:52:49 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'x-amz-meta-rev': '46-18a88b46f108cea52ad829355e2c032b',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/face-recognition from cache
+24 verbose get saving face-recognition to /home/sejuti/.npm/registry.npmjs.org/face-recognition/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule face-recognition@0.9.4 checking installable status
+38 silly cache add args [ 'face-recognition', null ]
+39 verbose cache add spec face-recognition
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'face-recognition',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'face-recognition',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed face-recognition@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for face-recognition
+43 info addNameTag [ 'face-recognition', 'latest' ]
+44 silly mapToRegistry name face-recognition
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/face-recognition
+48 verbose addNameTag registry:https://registry.npmjs.org/face-recognition not in flight; fetching
+49 verbose get https://registry.npmjs.org/face-recognition not expired, no request
+50 silly addNameTag next cb for face-recognition with tag latest
+51 silly addNamed face-recognition@0.9.4
+52 verbose addNamed "0.9.4" is a plain semver version for face-recognition
+53 silly cache afterAdd face-recognition@0.9.4
+54 verbose afterAdd /home/sejuti/.npm/face-recognition/0.9.4/package/package.json not in flight; writing
+55 verbose afterAdd /home/sejuti/.npm/face-recognition/0.9.4/package/package.json written
+56 silly fetchNamedPackageData dlib-build
+57 silly mapToRegistry name dlib-build
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/dlib-build
+61 silly fetchNamedPackageData face-recognition-models
+62 silly mapToRegistry name face-recognition-models
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/face-recognition-models
+66 silly fetchNamedPackageData nan
+67 silly mapToRegistry name nan
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/nan
+71 silly fetchNamedPackageData native-node-utils
+72 silly mapToRegistry name native-node-utils
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/native-node-utils
+76 verbose request uri https://registry.npmjs.org/face-recognition-models
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 12:31:09 AM
+79 verbose etag W/"e58e0953fe5a3ac198cc59934ec0052f"
+80 verbose lastModified Sun, 27 May 2018 00:20:58 GMT
+81 http request GET https://registry.npmjs.org/face-recognition-models
+82 verbose request uri https://registry.npmjs.org/dlib-build
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 12:31:09 AM
+85 verbose etag W/"32c22eb7db61094d251320ee0161146f"
+86 verbose lastModified Sat, 26 May 2018 22:13:07 GMT
+87 http request GET https://registry.npmjs.org/dlib-build
+88 verbose request uri https://registry.npmjs.org/native-node-utils
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 12:31:09 AM
+91 verbose etag W/"d5adadd8a0c19e1d44c58442b4c8498a"
+92 verbose lastModified Sun, 06 Jan 2019 10:30:47 GMT
+93 http request GET https://registry.npmjs.org/native-node-utils
+94 verbose request uri https://registry.npmjs.org/nan
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 12:31:09 AM
+97 verbose etag W/"4650c7a6353fcd42b9a9f0038b4974b4"
+98 verbose lastModified Fri, 04 Jan 2019 21:15:26 GMT
+99 http request GET https://registry.npmjs.org/nan
+100 http 304 https://registry.npmjs.org/native-node-utils
+101 verbose headers { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'set-cookie': [ '__cfduid=d4a8e3ed407cc1995ef1f8876e557c4d21548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+101 verbose headers   'cf-cache-status': 'HIT',
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   'cf-ray': '49dc81e2797b2fe1-MAA',
+101 verbose headers   etag: '"d5adadd8a0c19e1d44c58442b4c8498a"',
+101 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+101 verbose headers   'last-modified': 'Sun, 06 Jan 2019 10:30:47 GMT',
+101 verbose headers   vary: 'accept-encoding, accept',
+101 verbose headers   'x-amz-meta-rev': '13-5e534bae149e33e8920f77dd9e40b9c4',
+101 verbose headers   server: 'cloudflare' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+102 silly get     connection: 'keep-alive',
+102 silly get     'set-cookie': [ '__cfduid=d4a8e3ed407cc1995ef1f8876e557c4d21548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+102 silly get     'cf-cache-status': 'HIT',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     'cf-ray': '49dc81e2797b2fe1-MAA',
+102 silly get     etag: '"d5adadd8a0c19e1d44c58442b4c8498a"',
+102 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+102 silly get     'last-modified': 'Sun, 06 Jan 2019 10:30:47 GMT',
+102 silly get     vary: 'accept-encoding, accept',
+102 silly get     'x-amz-meta-rev': '13-5e534bae149e33e8920f77dd9e40b9c4',
+102 silly get     server: 'cloudflare' } ]
+103 verbose etag https://registry.npmjs.org/native-node-utils from cache
+104 verbose get saving native-node-utils to /home/sejuti/.npm/registry.npmjs.org/native-node-utils/.cache.json
+105 silly resolveWithNewModule native-node-utils@0.0.4 checking installable status
+106 silly cache add args [ 'native-node-utils@0.0.4', null ]
+107 verbose cache add spec native-node-utils@0.0.4
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: 'native-node-utils@0.0.4',
+108 silly cache add   scope: null,
+108 silly cache add   name: 'native-node-utils',
+108 silly cache add   rawSpec: '0.0.4',
+108 silly cache add   spec: '0.0.4',
+108 silly cache add   type: 'version' }
+109 silly addNamed native-node-utils@0.0.4
+110 verbose addNamed "0.0.4" is a plain semver version for native-node-utils
+111 silly mapToRegistry name native-node-utils
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/native-node-utils
+115 verbose addNameVersion registry:https://registry.npmjs.org/native-node-utils not in flight; fetching
+116 verbose get https://registry.npmjs.org/native-node-utils not expired, no request
+117 silly cache afterAdd native-node-utils@0.0.4
+118 verbose afterAdd /home/sejuti/.npm/native-node-utils/0.0.4/package/package.json not in flight; writing
+119 verbose afterAdd /home/sejuti/.npm/native-node-utils/0.0.4/package/package.json written
+120 http 304 https://registry.npmjs.org/face-recognition-models
+121 verbose headers { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'set-cookie': [ '__cfduid=dd8ce1b747511fbe4399a903487402c071548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+121 verbose headers   'cf-cache-status': 'HIT',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   'cf-ray': '49dc81e2caa18951-MAA',
+121 verbose headers   etag: '"e58e0953fe5a3ac198cc59934ec0052f"',
+121 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+121 verbose headers   'last-modified': 'Sun, 27 May 2018 00:20:58 GMT',
+121 verbose headers   vary: 'accept-encoding, accept',
+121 verbose headers   server: 'cloudflare' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+122 silly get     connection: 'keep-alive',
+122 silly get     'set-cookie': [ '__cfduid=dd8ce1b747511fbe4399a903487402c071548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+122 silly get     'cf-cache-status': 'HIT',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     'cf-ray': '49dc81e2caa18951-MAA',
+122 silly get     etag: '"e58e0953fe5a3ac198cc59934ec0052f"',
+122 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+122 silly get     'last-modified': 'Sun, 27 May 2018 00:20:58 GMT',
+122 silly get     vary: 'accept-encoding, accept',
+122 silly get     server: 'cloudflare' } ]
+123 verbose etag https://registry.npmjs.org/face-recognition-models from cache
+124 verbose get saving face-recognition-models to /home/sejuti/.npm/registry.npmjs.org/face-recognition-models/.cache.json
+125 http 304 https://registry.npmjs.org/dlib-build
+126 verbose headers { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'set-cookie': [ '__cfduid=dc9e1f98958b4b5be45be274450afb0a61548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+126 verbose headers   'cf-cache-status': 'HIT',
+126 verbose headers   'cache-control': 'max-age=300',
+126 verbose headers   'cf-ray': '49dc81e2de4c89b7-MAA',
+126 verbose headers   etag: '"32c22eb7db61094d251320ee0161146f"',
+126 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 verbose headers   'last-modified': 'Sat, 26 May 2018 22:13:07 GMT',
+126 verbose headers   vary: 'accept-encoding, accept',
+126 verbose headers   server: 'cloudflare' }
+127 silly get cb [ 304,
+127 silly get   { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+127 silly get     connection: 'keep-alive',
+127 silly get     'set-cookie': [ '__cfduid=dc9e1f98958b4b5be45be274450afb0a61548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+127 silly get     'cf-cache-status': 'HIT',
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     'cf-ray': '49dc81e2de4c89b7-MAA',
+127 silly get     etag: '"32c22eb7db61094d251320ee0161146f"',
+127 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+127 silly get     'last-modified': 'Sat, 26 May 2018 22:13:07 GMT',
+127 silly get     vary: 'accept-encoding, accept',
+127 silly get     server: 'cloudflare' } ]
+128 verbose etag https://registry.npmjs.org/dlib-build from cache
+129 verbose get saving dlib-build to /home/sejuti/.npm/registry.npmjs.org/dlib-build/.cache.json
+130 silly resolveWithNewModule face-recognition-models@0.0.0 checking installable status
+131 silly cache add args [ 'face-recognition-models@0.0.0', null ]
+132 verbose cache add spec face-recognition-models@0.0.0
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'face-recognition-models@0.0.0',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'face-recognition-models',
+133 silly cache add   rawSpec: '0.0.0',
+133 silly cache add   spec: '0.0.0',
+133 silly cache add   type: 'version' }
+134 silly addNamed face-recognition-models@0.0.0
+135 verbose addNamed "0.0.0" is a plain semver version for face-recognition-models
+136 silly mapToRegistry name face-recognition-models
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/face-recognition-models
+140 verbose addNameVersion registry:https://registry.npmjs.org/face-recognition-models not in flight; fetching
+141 silly resolveWithNewModule dlib-build@0.1.1 checking installable status
+142 silly cache add args [ 'dlib-build@^0.1.1', null ]
+143 verbose cache add spec dlib-build@^0.1.1
+144 silly cache add parsed spec Result {
+144 silly cache add   raw: 'dlib-build@^0.1.1',
+144 silly cache add   scope: null,
+144 silly cache add   name: 'dlib-build',
+144 silly cache add   rawSpec: '^0.1.1',
+144 silly cache add   spec: '>=0.1.1 <0.2.0',
+144 silly cache add   type: 'range' }
+145 silly addNamed dlib-build@>=0.1.1 <0.2.0
+146 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for dlib-build
+147 silly addNameRange { name: 'dlib-build', range: '>=0.1.1 <0.2.0', hasData: false }
+148 silly mapToRegistry name dlib-build
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/dlib-build
+152 verbose addNameRange registry:https://registry.npmjs.org/dlib-build not in flight; fetching
+153 verbose get https://registry.npmjs.org/dlib-build not expired, no request
+154 silly addNameRange number 2 { name: 'dlib-build', range: '>=0.1.1 <0.2.0', hasData: true }
+155 silly addNameRange versions [ 'dlib-build',
+155 silly addNameRange   [ '0.0.0',
+155 silly addNameRange     '0.0.1',
+155 silly addNameRange     '0.0.2',
+155 silly addNameRange     '0.0.3',
+155 silly addNameRange     '0.0.4',
+155 silly addNameRange     '0.0.5',
+155 silly addNameRange     '0.0.6',
+155 silly addNameRange     '0.1.0',
+155 silly addNameRange     '0.1.1' ] ]
+156 silly addNamed dlib-build@0.1.1
+157 verbose addNamed "0.1.1" is a plain semver version for dlib-build
+158 verbose get https://registry.npmjs.org/face-recognition-models not expired, no request
+159 silly mapToRegistry name face-recognition-models
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/face-recognition-models
+163 verbose addRemoteTarball https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz not in flight; adding
+164 verbose addRemoteTarball [ 'https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz',
+164 verbose addRemoteTarball   '9eb3068356a7db9504bee5cbe5b25b7bffe03582' ]
+165 silly cache afterAdd dlib-build@0.1.1
+166 verbose afterAdd /home/sejuti/.npm/dlib-build/0.1.1/package/package.json not in flight; writing
+167 http 304 https://registry.npmjs.org/nan
+168 verbose headers { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'set-cookie': [ '__cfduid=d8afe718e3fefec28e2ac251f5669bf411548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+168 verbose headers   'cf-cache-status': 'HIT',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   'cf-ray': '49dc81e308902fab-MAA',
+168 verbose headers   etag: '"4650c7a6353fcd42b9a9f0038b4974b4"',
+168 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 verbose headers   'last-modified': 'Fri, 04 Jan 2019 21:15:26 GMT',
+168 verbose headers   vary: 'accept-encoding, accept',
+168 verbose headers   'x-amz-meta-rev': '183-cd5bd2412d05a8163a77e8ec04228cfd',
+168 verbose headers   server: 'cloudflare' }
+169 silly get cb [ 304,
+169 silly get   { date: 'Wed, 23 Jan 2019 19:01:10 GMT',
+169 silly get     connection: 'keep-alive',
+169 silly get     'set-cookie': [ '__cfduid=d8afe718e3fefec28e2ac251f5669bf411548270070; expires=Thu, 23-Jan-20 19:01:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+169 silly get     'cf-cache-status': 'HIT',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     'cf-ray': '49dc81e308902fab-MAA',
+169 silly get     etag: '"4650c7a6353fcd42b9a9f0038b4974b4"',
+169 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+169 silly get     'last-modified': 'Fri, 04 Jan 2019 21:15:26 GMT',
+169 silly get     vary: 'accept-encoding, accept',
+169 silly get     'x-amz-meta-rev': '183-cd5bd2412d05a8163a77e8ec04228cfd',
+169 silly get     server: 'cloudflare' } ]
+170 verbose etag https://registry.npmjs.org/nan from cache
+171 verbose get saving nan to /home/sejuti/.npm/registry.npmjs.org/nan/.cache.json
+172 info retry fetch attempt 1 at 12:31:10 AM
+173 info attempt registry request try #1 at 12:31:10 AM
+174 http fetch GET https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+175 verbose afterAdd /home/sejuti/.npm/dlib-build/0.1.1/package/package.json written
+176 silly resolveWithNewModule nan@2.12.1 checking installable status
+177 silly cache add args [ 'nan@^2.7.0', null ]
+178 verbose cache add spec nan@^2.7.0
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'nan@^2.7.0',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'nan',
+179 silly cache add   rawSpec: '^2.7.0',
+179 silly cache add   spec: '>=2.7.0 <3.0.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed nan@>=2.7.0 <3.0.0
+181 verbose addNamed ">=2.7.0 <3.0.0" is a valid semver range for nan
+182 silly addNameRange { name: 'nan', range: '>=2.7.0 <3.0.0', hasData: false }
+183 silly mapToRegistry name nan
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/nan
+187 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+188 verbose get https://registry.npmjs.org/nan not expired, no request
+189 silly addNameRange number 2 { name: 'nan', range: '>=2.7.0 <3.0.0', hasData: true }
+190 silly addNameRange versions [ 'nan',
+190 silly addNameRange   [ '0.3.0-wip',
+190 silly addNameRange     '0.3.0-wip2',
+190 silly addNameRange     '0.3.0',
+190 silly addNameRange     '0.3.1',
+190 silly addNameRange     '0.3.2',
+190 silly addNameRange     '0.4.0',
+190 silly addNameRange     '0.4.1',
+190 silly addNameRange     '0.4.2',
+190 silly addNameRange     '0.4.3',
+190 silly addNameRange     '0.4.4',
+190 silly addNameRange     '0.5.0',
+190 silly addNameRange     '0.5.1',
+190 silly addNameRange     '0.5.2',
+190 silly addNameRange     '0.6.0',
+190 silly addNameRange     '0.7.0',
+190 silly addNameRange     '0.7.1',
+190 silly addNameRange     '0.8.0',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.1.2',
+190 silly addNameRange     '1.2.0',
+190 silly addNameRange     '1.3.0',
+190 silly addNameRange     '1.4.0',
+190 silly addNameRange     '1.4.1',
+190 silly addNameRange     '1.5.0',
+190 silly addNameRange     '1.4.2',
+190 silly addNameRange     '1.4.3',
+190 silly addNameRange     '1.5.1',
+190 silly addNameRange     '1.5.2',
+190 silly addNameRange     '1.6.0',
+190 silly addNameRange     '1.5.3',
+190 silly addNameRange     '1.6.1',
+190 silly addNameRange     '1.6.2',
+190 silly addNameRange     '1.7.0',
+190 silly addNameRange     '1.8.0',
+190 silly addNameRange     '1.8.1',
+190 silly addNameRange     '1.8.2',
+190 silly addNameRange     '1.8.3',
+190 silly addNameRange     '1.8.4',
+190 silly addNameRange     '1.9.0',
+190 silly addNameRange     '2.0.0',
+190 silly addNameRange     '2.0.1',
+190 silly addNameRange     '2.0.2',
+190 silly addNameRange     '2.0.3',
+190 silly addNameRange     '2.0.4',
+190 silly addNameRange     '2.0.5',
+190 silly addNameRange     '2.0.6',
+190 silly addNameRange     '2.0.7',
+190 silly addNameRange     '2.0.8',
+190 silly addNameRange     '2.0.9',
+190 silly addNameRange     '2.1.0',
+190 silly addNameRange     '2.2.0',
+190 silly addNameRange     '2.2.1',
+190 silly addNameRange     '2.3.0',
+190 silly addNameRange     '2.3.1',
+190 silly addNameRange     '2.3.2',
+190 silly addNameRange     '2.3.3',
+190 silly addNameRange     '2.3.4',
+190 silly addNameRange     '2.3.5',
+190 silly addNameRange     '2.4.0',
+190 silly addNameRange     '2.5.0',
+190 silly addNameRange     '2.5.1',
+190 silly addNameRange     '2.6.0',
+190 silly addNameRange     '2.6.1',
+190 silly addNameRange     '2.6.2',
+190 silly addNameRange     '2.7.0',
+190 silly addNameRange     '2.8.0',
+190 silly addNameRange     '2.9.1',
+190 silly addNameRange     '2.9.2',
+190 silly addNameRange     '2.10.0',
+190 silly addNameRange     '2.11.0',
+190 silly addNameRange     '2.11.1',
+190 silly addNameRange     '2.12.0',
+190 silly addNameRange     '2.12.1' ] ]
+191 silly addNamed nan@2.12.1
+192 verbose addNamed "2.12.1" is a plain semver version for nan
+193 silly cache afterAdd nan@2.12.1
+194 verbose afterAdd /home/sejuti/.npm/nan/2.12.1/package/package.json not in flight; writing
+195 verbose afterAdd /home/sejuti/.npm/nan/2.12.1/package/package.json written
+196 http fetch 200 https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+197 silly fetchAndShaCheck shasum 9eb3068356a7db9504bee5cbe5b25b7bffe03582
+198 silly rollbackFailedOptional Starting
+199 silly rollbackFailedOptional Finishing
+200 silly runTopLevelLifecycles Starting
+201 silly runTopLevelLifecycles Finishing
+202 silly install printInstalled
+203 verbose stack Error: shasum check failed for /tmp/npm-8194-88578cf5/registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+203 verbose stack Expected: 9eb3068356a7db9504bee5cbe5b25b7bffe03582
+203 verbose stack Actual:   01092c1a98f939e4baf8e6c16760d3ae3cb0bf03
+203 verbose stack From:     https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+203 verbose stack     at /usr/share/npm/node_modules/sha/index.js:25:8
+203 verbose stack     at ReadStream.<anonymous> (/usr/share/npm/node_modules/sha/index.js:72:7)
+203 verbose stack     at emitNone (events.js:72:20)
+203 verbose stack     at ReadStream.emit (events.js:166:7)
+203 verbose stack     at endReadableNT (_stream_readable.js:905:12)
+203 verbose stack     at nextTickCallbackWith2Args (node.js:441:9)
+203 verbose stack     at process._tickCallback (node.js:355:17)
+204 verbose cwd /home/sejuti/cmake-2.8.3
+205 error Linux 4.15.0-43-generic
+206 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "face-recognition"
+207 error node v4.2.6
+208 error npm  v3.5.2
+209 error shasum check failed for /tmp/npm-8194-88578cf5/registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+209 error Expected: 9eb3068356a7db9504bee5cbe5b25b7bffe03582
+209 error Actual:   01092c1a98f939e4baf8e6c16760d3ae3cb0bf03
+209 error From:     https://registry.npmjs.org/face-recognition-models/-/face-recognition-models-0.0.0.tgz
+210 error If you need help, you may report this error at:
+210 error     <https://github.com/npm/npm/issues>
+211 verbose exit [ 1, true ]
